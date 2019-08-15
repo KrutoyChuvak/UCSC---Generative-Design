@@ -1,8 +1,10 @@
 body{
   background: LightCyan;
   font-family: Times;
+  padding: 30px;
 }
 head{
- background: Blue;
+  background: Blue;
   font-family: Times;
+  padding: 30px;
 }
