@@ -4,7 +4,7 @@ var map0;
 var depth = 1;
 
 function preload() {
-	img = loadImage('assets/menu.png');
+	img = loadImage('assets/menu.PNG');
 }
 
 function setup() {
