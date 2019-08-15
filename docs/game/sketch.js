@@ -22,6 +22,10 @@ function setup() {
 }
 
 function draw() {
+	if (player.money == 0) {
+		player.dead = true;
+		gameOver();
+	}
 	if (player.dead == true){
 		gameOver();
 	}
